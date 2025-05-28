@@ -1,0 +1,11 @@
+[package]
+name = "anthony-n/optimize"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Network = "call23re/network@2.3.0"
+
+[server-dependencies]
+ProfileService = "firebird702/profileservice@1.1.0"

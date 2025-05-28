@@ -1,0 +1,15 @@
+[package]
+name = "call23re/network"
+description = "Declarative Networking library"
+version = "2.3.0"
+license = "MIT"
+authors = ["call23re2"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+include = ["src", "src/**", "wally.toml", "wally.lock", "default.project.json"]
+exclude = ["**"]
+
+[dependencies]
+Promise = "evaera/promise@4.0.0"
+Signal = "call23re/goodsignal@0.2.2"
